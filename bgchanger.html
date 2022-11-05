@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Changer</title>
+    <style>
+        body{
+            margin:0px;
+            padding: 20px 100px;
+        }
+        h1{
+            text-align: center;
+        }
+        img{
+            width: 25%;
+            height: auto;
+            margin: 0px auto;
+            display:inline
+        }
+        p{
+            font-size: 20px;
+            font-weight: 200;
+            text-align: justify;
+        }
+        .btn{
+            width:20px ;
+            height:20px;
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 50%;
+            cursor:pointer;
+        }
+        #cornsilk{
+              background-color: cornsilk;
+        }
+        #green{
+            background-color: green;
+        }
+        #aqua{
+           background-color: aqua;
+        }
+        #skyblue{
+           background-color: skyblue;
+        }
+        #color{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div id="color">
+        <span class="btn" id="cornsilk" onclick="changeBG('cornsilk')" ></span>
+        <span class="btn" id="green" onclick="changeBG('green')"></span>
+        <span class="btn" id="skyblue" onclick="changeBG('skyblue')"></span>
+        <span class="btn" id="aqua" onclick="changeBG('aqua')"></span>
+    </div>
+    <h1><u>About Us</u></h1>
+    <img src="pic.jpg">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex est iste maiores quae modi odio nemo adipisci accusantium quos inventore. Doloremque porro dolor accusantium, explicabo libero aspernatur ipsam aliquid eligendi dignissimos excepturi sit corrupti placeat vero necessitatibus ipsum, voluptatibus modi delectus, veniam rerum natus? Voluptate adipisci repellendus eaque sint optio quae temporibus aspernatur dignissimos. Temporibus sint eaque repudiandae quidem consequatur nisi beatae, ad placeat repellat nihil, optio atque aut sunt amet nam numquam nesciunt corrupti in dolores soluta. Pariatur sint exercitationem adipisci odio mollitia molestiae quidem expedita nemo vel voluptatibus necessitatibus maxime dolor, sequi, laboriosam dicta aliquid quod iure voluptatum!
+    </p>
+    <script>
+        function changeBG(color){
+            document.body.style.backgroundColor=color;
+           
+        }
+    </script>
+   
+
+    
+</body>
+</html>
